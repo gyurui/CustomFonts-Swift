@@ -176,6 +176,7 @@
 				TargetAttributes = {
 					981B79261C0DC18600815AC3 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = H62B4T98ND;
 					};
 					981B793B1C0DC18600815AC3 = {
 						CreatedOnToolsVersion = 6.4;
@@ -359,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CustomFonts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CustomFonts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +431,7 @@
 				981B79481C0DC18600815AC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		981B79491C0DC18600815AC3 /* Build configuration list for PBXNativeTarget "CustomFontsTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +440,7 @@
 				981B794B1C0DC18600815AC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

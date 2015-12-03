@@ -39,15 +39,7 @@ class Downloader {
                 } else {
                     let fontName = CGFontCopyPostScriptName(cgFont)
                     uiFont = UIFont(name: String(fontName) , size: 30)
-                    for x in UIFont.familyNames()
-                    {
-                        print(x)
-                        
-                        for z in UIFont.fontNamesForFamilyName(x as! String)
-                        {
-                            print("== \(z)")
-                        }
-                    }
+
                 }
                 
             }

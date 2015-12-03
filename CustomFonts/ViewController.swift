@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         
 
         self.customFontLabel.text = "Hello World"
+        
     }
     
     @IBAction func pushNewFontButton(sender: AnyObject) {
