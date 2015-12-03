@@ -50,6 +50,6 @@ class Downloader {
         })
         task.resume()
         
-        return nil;
+        return nil
     }
 }
